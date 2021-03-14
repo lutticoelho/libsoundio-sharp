@@ -8,5 +8,9 @@
     </PropertyGroup>
     <ItemGroup>
       <ProjectReference Include="..\..\libsoundio-sharp\libsoundio-sharp.csproj" />
+      <None Include="..\..\libs\libsoundio.dll">
+        <Link>soundio.dll</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 </Project>
